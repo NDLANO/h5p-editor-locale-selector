@@ -1,0 +1,46 @@
+{
+  "name": "h5peditor-locale-selector",
+  "version": "1.0.0",
+  "description": "Editor widget for choosing language/country specific values",
+  "private": true,
+  "scripts": {
+    "lint": "stylelint './src/**/*.scss' && eslint './src/**/*.js'",
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndlano/h5p-editor-locale-selector.git"
+  },
+  "keywords": [
+    "h5p",
+    "editor"
+  ],
+  "author": "Oliver Tacke",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/eslint-parser": "^7.28.5",
+    "@babel/plugin-transform-destructuring": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.57.0",
+    "eslint-config-ndla-h5p": "github:NDLANO/eslint-config-ndla-h5p",
+    "eslint-plugin-jsdoc": "^61.1.11",
+    "mini-css-extract-plugin": "^2.9.4",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.93.2",
+    "sass-loader": "^16.0.6",
+    "stylelint": "^16.25.0",
+    "stylelint-config-recommended": "^17.0.0",
+    "stylelint-config-recommended-scss": "^16.0.2",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "he": "^1.2.0"
+  },
+  "browserslist": "> 0.5%, last 3 versions, Firefox ESR, not dead"
+}

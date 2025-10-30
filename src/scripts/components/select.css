@@ -1,0 +1,33 @@
+.h5peditor-locale-selector-select-wrapper {
+    --icon-font-awesome-angle-down: "\f107";
+    display: inline-block;
+    position: relative;
+
+    .h5peditor-locale-selector-select {
+      background-color: #fff;
+      border: 1px solid #d0d0d1;
+      box-shadow: inset 0px 0px 5px rgba(0, 0, 0, .12);
+      color: #4c4452;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1rem;
+      padding-block: .625rem;
+      padding-inline: .5rem 1.875rem;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+
+    &::after {
+      content: var(--icon-font-awesome-angle-down);
+      font-family: "H5PFontAwesome4", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1;
+      position: absolute;
+      pointer-events: none;
+      right: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      user-select: none;
+    }
+  }

@@ -1,0 +1,30 @@
+{
+  "title": "H5PEditor.LocaleSelector",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "machineName": "H5PEditor.LocaleSelector",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 27
+  },
+  "author": "Oliver Tacke",
+  "preloadedJs": [
+    {
+      "path": "dist/h5peditor-locale-selector.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "dist/h5peditor-locale-selector.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    }
+  ]
+}

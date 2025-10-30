@@ -1,0 +1,1360 @@
+{
+  "AD": {
+    "bcp47": "ca-AD",
+    "iso3166": "AD",
+    "countryNameEnglish": "Andorra",
+    "countryNameLocal": "Andorra",
+    "flag": "\uD83C\uDDE6\uD83C\uDDE9"
+  },
+  "AE": {
+    "bcp47": "ar-AE",
+    "iso3166": "AE",
+    "countryNameEnglish": "United Arab Emirates",
+    "countryNameLocal": "الإمارات العربية المتحدة",
+    "flag": "\uD83C\uDDE6\uD83C\uDDEA"
+  },
+  "AF": {
+    "bcp47": "fa-AF",
+    "iso3166": "AF",
+    "countryNameEnglish": "Afghanistan",
+    "countryNameLocal": "افغانستان",
+    "flag": "\uD83C\uDDE6\uD83C\uDDEB"
+  },
+  "AG": {
+    "bcp47": "en-AG",
+    "iso3166": "AG",
+    "countryNameEnglish": "Antigua and Barbuda",
+    "countryNameLocal": "Antigua and Barbuda",
+    "flag": "\uD83C\uDDE6\uD83C\uDDEC"
+  },
+  "AL": {
+    "bcp47": "sq-AL",
+    "iso3166": "AL",
+    "countryNameEnglish": "Albania",
+    "countryNameLocal": "Shqipëria",
+    "flag": "\uD83C\uDDE6\uD83C\uDDF1"
+  },
+  "AM": {
+    "bcp47": "hy-AM",
+    "iso3166": "AM",
+    "countryNameEnglish": "Armenia",
+    "countryNameLocal": "Հայաստան",
+    "flag": "\uD83C\uDDE6\uD83C\uDDF2"
+  },
+  "AO": {
+    "bcp47": "pt-AO",
+    "iso3166": "AO",
+    "countryNameEnglish": "Angola",
+    "countryNameLocal": "Angola",
+    "flag": "\uD83C\uDDE6\uD83C\uDDF4"
+  },
+  "AR": {
+    "bcp47": "es-AR",
+    "iso3166": "AR",
+    "countryNameEnglish": "Argentina",
+    "countryNameLocal": "Argentina",
+    "flag": "\uD83C\uDDE6\uD83C\uDDF7"
+  },
+  "AT": {
+    "bcp47": "de-AT",
+    "iso3166": "AT",
+    "countryNameEnglish": "Austria",
+    "countryNameLocal": "Österreich",
+    "flag": "\uD83C\uDDE6\uD83C\uDDF9"
+  },
+  "AU": {
+    "bcp47": "en-AU",
+    "iso3166": "AU",
+    "countryNameEnglish": "Australia",
+    "countryNameLocal": "Australia",
+    "flag": "\uD83C\uDDE6\uD83C\uDDFA"
+  },
+  "AZ": {
+    "bcp47": "az-AZ",
+    "iso3166": "AZ",
+    "countryNameEnglish": "Azerbaijan",
+    "countryNameLocal": "Azərbaycan",
+    "flag": "\uD83C\uDDE6\uD83C\uDDFF"
+  },
+  "BA": {
+    "bcp47": "bs-BA",
+    "iso3166": "BA",
+    "countryNameEnglish": "Bosnia and Herzegovina",
+    "countryNameLocal": "Bosna i Hercegovina",
+    "flag": "\uD83C\uDDE7\uD83C\uDDE6"
+  },
+  "BB": {
+    "bcp47": "en-BB",
+    "iso3166": "BB",
+    "countryNameEnglish": "Barbados",
+    "countryNameLocal": "Barbados",
+    "flag": "\uD83C\uDDE7\uD83C\uDDE7"
+  },
+  "BD": {
+    "bcp47": "bn-BD",
+    "iso3166": "BD",
+    "countryNameEnglish": "Bangladesh",
+    "countryNameLocal": "বাংলাদেশ",
+    "flag": "\uD83C\uDDE7\uD83C\uDDE9"
+  },
+  "BE": {
+    "bcp47": "nl-BE",
+    "iso3166": "BE",
+    "countryNameEnglish": "Belgium",
+    "countryNameLocal": "België",
+    "flag": "\uD83C\uDDE7\uD83C\uDDEA"
+  },
+  "BF": {
+    "bcp47": "fr-BF",
+    "iso3166": "BF",
+    "countryNameEnglish": "Burkina Faso",
+    "countryNameLocal": "Burkina Faso",
+    "flag": "\uD83C\uDDE7\uD83C\uDDEB"
+  },
+  "BG": {
+    "bcp47": "bg-BG",
+    "iso3166": "BG",
+    "countryNameEnglish": "Bulgaria",
+    "countryNameLocal": "България",
+    "flag": "\uD83C\uDDE7\uD83C\uDDEC"
+  },
+  "BH": {
+    "bcp47": "ar-BH",
+    "iso3166": "BH",
+    "countryNameEnglish": "Bahrain",
+    "countryNameLocal": "البحرين",
+    "flag": "\uD83C\uDDE7\uD83C\uDDEE"
+  },
+  "BI": {
+    "bcp47": "fr-BI",
+    "iso3166": "BI",
+    "countryNameEnglish": "Burundi",
+    "countryNameLocal": "Burundi",
+    "flag": "\uD83C\uDDE7\uD83C\uDDEE"
+  },
+  "BJ": {
+    "bcp47": "fr-BJ",
+    "iso3166": "BJ",
+    "countryNameEnglish": "Benin",
+    "countryNameLocal": "Bénin",
+    "flag": "\uD83C\uDDE7\uD83C\uDDEF"
+  },
+  "BN": {
+    "bcp47": "ms-BN",
+    "iso3166": "BN",
+    "countryNameEnglish": "Brunei",
+    "countryNameLocal": "Brunei",
+    "flag": "\uD83C\uDDE7\uD83C\uDDF3"
+  },
+  "BO": {
+    "bcp47": "es-BO",
+    "iso3166": "BO",
+    "countryNameEnglish": "Bolivia",
+    "countryNameLocal": "Bolivia",
+    "flag": "\uD83C\uDDE7\uD83C\uDDF4"
+  },
+  "BR": {
+    "bcp47": "pt-BR",
+    "iso3166": "BR",
+    "countryNameEnglish": "Brazil",
+    "countryNameLocal": "Brasil",
+    "flag": "\uD83C\uDDE7\uD83C\uDDF7"
+  },
+  "BS": {
+    "bcp47": "en-BS",
+    "iso3166": "BS",
+    "countryNameEnglish": "Bahamas",
+    "countryNameLocal": "Bahamas",
+    "flag": "\uD83C\uDDE7\uD83C\uDDF8"
+  },
+  "BT": {
+    "bcp47": "dz-BT",
+    "iso3166": "BT",
+    "countryNameEnglish": "Bhutan",
+    "countryNameLocal": "འབྲུག་ཡུལ་",
+    "flag": "\uD83C\uDDE7\uD83C\uDDF9"
+  },
+  "BW": {
+    "bcp47": "en-BW",
+    "iso3166": "BW",
+    "countryNameEnglish": "Botswana",
+    "countryNameLocal": "Botswana",
+    "flag": "\uD83C\uDDE7\uD83C\uDDFC"
+  },
+  "BY": {
+    "bcp47": "be-BY",
+    "iso3166": "BY",
+    "countryNameEnglish": "Belarus",
+    "countryNameLocal": "Беларусь",
+    "flag": "\uD83C\uDDE7\uD83C\uDDFE"
+  },
+  "BZ": {
+    "bcp47": "en-BZ",
+    "iso3166": "BZ",
+    "countryNameEnglish": "Belize",
+    "countryNameLocal": "Belize",
+    "flag": "\uD83C\uDDE7\uD83C\uDDFF"
+  },
+  "CA": {
+    "bcp47": "en-CA",
+    "iso3166": "CA",
+    "countryNameEnglish": "Canada",
+    "countryNameLocal": "Canada",
+    "flag": "\uD83C\uDDE8\uD83C\uDDE6"
+  },
+  "CD": {
+    "bcp47": "fr-CD",
+    "iso3166": "CD",
+    "countryNameEnglish": "Congo - Kinshasa",
+    "countryNameLocal": "Congo-Kinshasa",
+    "flag": "\uD83C\uDDE8\uD83C\uDDE9"
+  },
+  "CF": {
+    "bcp47": "fr-CF",
+    "iso3166": "CF",
+    "countryNameEnglish": "Central African Republic",
+    "countryNameLocal": "République centrafricaine",
+    "flag": "\uD83C\uDDE8\uD83C\uDDEB"
+  },
+  "CG": {
+    "bcp47": "fr-CG",
+    "iso3166": "CG",
+    "countryNameEnglish": "Congo - Brazzaville",
+    "countryNameLocal": "Congo-Brazzaville",
+    "flag": "\uD83C\uDDE8\uD83C\uDDEC"
+  },
+  "CH": {
+    "bcp47": "de-CH",
+    "iso3166": "CH",
+    "countryNameEnglish": "Switzerland",
+    "countryNameLocal": "Schweiz",
+    "flag": "\uD83C\uDDE8\uD83C\uDDED"
+  },
+  "CI": {
+    "bcp47": "fr-CI",
+    "iso3166": "CI",
+    "countryNameEnglish": "Côte d'Ivoire",
+    "countryNameLocal": "Côte d'Ivoire",
+    "flag": "\uD83C\uDDE8\uD83C\uDDEE"
+  },
+  "CL": {
+    "bcp47": "es-CL",
+    "iso3166": "CL",
+    "countryNameEnglish": "Chile",
+    "countryNameLocal": "Chile",
+    "flag": "\uD83C\uDDE8\uD83C\uDDF1"
+  },
+  "CM": {
+    "bcp47": "fr-CM",
+    "iso3166": "CM",
+    "countryNameEnglish": "Cameroon",
+    "countryNameLocal": "Cameroun",
+    "flag": "\uD83C\uDDE8\uD83C\uDDF2"
+  },
+  "CN": {
+    "bcp47": "zh-CN",
+    "iso3166": "CN",
+    "countryNameEnglish": "China",
+    "countryNameLocal": "中国",
+    "flag": "\uD83C\uDDE8\uD83C\uDDF3"
+  },
+  "CO": {
+    "bcp47": "es-CO",
+    "iso3166": "CO",
+    "countryNameEnglish": "Colombia",
+    "countryNameLocal": "Colombia",
+    "flag": "\uD83C\uDDE8\uD83C\uDDF4"
+  },
+  "CR": {
+    "bcp47": "es-CR",
+    "iso3166": "CR",
+    "countryNameEnglish": "Costa Rica",
+    "countryNameLocal": "Costa Rica",
+    "flag": "\uD83C\uDDE8\uD83C\uDDF7"
+  },
+  "CU": {
+    "bcp47": "es-CU",
+    "iso3166": "CU",
+    "countryNameEnglish": "Cuba",
+    "countryNameLocal": "Cuba",
+    "flag": "\uD83C\uDDE8\uD83C\uDDFA"
+  },
+  "CV": {
+    "bcp47": "pt-CV",
+    "iso3166": "CV",
+    "countryNameEnglish": "Cape Verde",
+    "countryNameLocal": "Cabo Verde",
+    "flag": "\uD83C\uDDE8\uD83C\uDDFB"
+  },
+  "CY": {
+    "bcp47": "el-CY",
+    "iso3166": "CY",
+    "countryNameEnglish": "Cyprus",
+    "countryNameLocal": "Κύπρος",
+    "flag": "\uD83C\uDDEC\uD83C\uDDF7"
+  },
+  "CZ": {
+    "bcp47": "cs-CZ",
+    "iso3166": "CZ",
+    "countryNameEnglish": "Czechia",
+    "countryNameLocal": "Česko",
+    "flag": "\uD83C\uDDE8\uD83C\uDDFF"
+  },
+  "DE": {
+    "bcp47": "de-DE",
+    "iso3166": "DE",
+    "countryNameEnglish": "Germany",
+    "countryNameLocal": "Deutschland",
+    "flag": "\uD83C\uDDE9\uD83C\uDDEA"
+  },
+  "DJ": {
+    "bcp47": "ar-DJ",
+    "iso3166": "DJ",
+    "countryNameEnglish": "Djibouti",
+    "countryNameLocal": "جيبوتي",
+    "flag": "\uD83C\uDDE9\uD83C\uDDEF"
+  },
+  "DK": {
+    "bcp47": "da-DK",
+    "iso3166": "DK",
+    "countryNameEnglish": "Denmark",
+    "countryNameLocal": "Danmark",
+    "flag": "\uD83C\uDDE9\uD83C\uDDF0"
+  },
+  "DM": {
+    "bcp47": "en-DM",
+    "iso3166": "DM",
+    "countryNameEnglish": "Dominica",
+    "countryNameLocal": "Dominica",
+    "flag": "\uD83C\uDDE9\uD83C\uDDF2"
+  },
+  "DO": {
+    "bcp47": "es-DO",
+    "iso3166": "DO",
+    "countryNameEnglish": "Dominican Republic",
+    "countryNameLocal": "República Dominicana",
+    "flag": "\uD83C\uDDE9\uD83C\uDDF4"
+  },
+  "DZ": {
+    "bcp47": "ar-DZ",
+    "iso3166": "DZ",
+    "countryNameEnglish": "Algeria",
+    "countryNameLocal": "الجزائر",
+    "flag": "\uD83C\uDDE9\uD83C\uDDFF"
+  },
+  "EC": {
+    "bcp47": "es-EC",
+    "iso3166": "EC",
+    "countryNameEnglish": "Ecuador",
+    "countryNameLocal": "Ecuador",
+    "flag": "\uD83C\uDDEA\uD83C\uDDE8"
+  },
+  "EE": {
+    "bcp47": "et-EE",
+    "iso3166": "EE",
+    "countryNameEnglish": "Estonia",
+    "countryNameLocal": "Eesti",
+    "flag": "\uD83C\uDDEA\uD83C\uDDEA"
+  },
+  "EG": {
+    "bcp47": "ar-EG",
+    "iso3166": "EG",
+    "countryNameEnglish": "Egypt",
+    "countryNameLocal": "مصر",
+    "flag": "\uD83C\uDDEA\uD83C\uDDEC"
+  },
+  "ER": {
+    "bcp47": "ar-ER",
+    "iso3166": "ER",
+    "countryNameEnglish": "Eritrea",
+    "countryNameLocal": "إريتريا",
+    "flag": "\uD83C\uDDEA\uD83C\uDDF7"
+  },
+  "ES": {
+    "bcp47": "es-ES",
+    "iso3166": "ES",
+    "countryNameEnglish": "Spain",
+    "countryNameLocal": "España",
+    "flag": "\uD83C\uDDEA\uD83C\uDDF8"
+  },
+  "ET": {
+    "bcp47": "am-ET",
+    "iso3166": "ET",
+    "countryNameEnglish": "Ethiopia",
+    "countryNameLocal": "ኢትዮጵያ",
+    "flag": "\uD83C\uDDEA\uD83C\uDDF9"
+  },
+  "FI": {
+    "bcp47": "fi-FI",
+    "iso3166": "FI",
+    "countryNameEnglish": "Finland",
+    "countryNameLocal": "Suomi",
+    "flag": "\uD83C\uDDEB\uD83C\uDDEE"
+  },
+  "FJ": {
+    "bcp47": "en-FJ",
+    "iso3166": "FJ",
+    "countryNameEnglish": "Fiji",
+    "countryNameLocal": "Fiji",
+    "flag": "\uD83C\uDDEB\uD83C\uDDEF"
+  },
+  "FM": {
+    "bcp47": "en-FM",
+    "iso3166": "FM",
+    "countryNameEnglish": "Micronesia",
+    "countryNameLocal": "Micronesia",
+    "flag": "\uD83C\uDDEB\uD83C\uDDF2"
+  },
+  "FR": {
+    "bcp47": "fr-FR",
+    "iso3166": "FR",
+    "countryNameEnglish": "France",
+    "countryNameLocal": "France",
+    "flag": "\uD83C\uDDEB\uD83C\uDDF7"
+  },
+  "GA": {
+    "bcp47": "fr-GA",
+    "iso3166": "GA",
+    "countryNameEnglish": "Gabon",
+    "countryNameLocal": "Gabon",
+    "flag": "\uD83C\uDDEC\uD83C\uDDE6"
+  },
+  "GB": {
+    "bcp47": "en-GB",
+    "iso3166": "GB",
+    "countryNameEnglish": "United Kingdom",
+    "countryNameLocal": "United Kingdom",
+    "flag": "\uD83C\uDDEC\uD83C\uDDE7"
+  },
+  "GD": {
+    "bcp47": "en-GD",
+    "iso3166": "GD",
+    "countryNameEnglish": "Grenada",
+    "countryNameLocal": "Grenada",
+    "flag": "\uD83C\uDDEC\uD83C\uDDE9"
+  },
+  "GE": {
+    "bcp47": "ka-GE",
+    "iso3166": "GE",
+    "countryNameEnglish": "Georgia",
+    "countryNameLocal": "საქართველო",
+    "flag": "\uD83C\uDDEC\uD83C\uDDEA"
+  },
+  "GH": {
+    "bcp47": "en-GH",
+    "iso3166": "GH",
+    "countryNameEnglish": "Ghana",
+    "countryNameLocal": "Ghana",
+    "flag": "\uD83C\uDDEC\uD83C\uDDED"
+  },
+  "GM": {
+    "bcp47": "en-GM",
+    "iso3166": "GM",
+    "countryNameEnglish": "Gambia",
+    "countryNameLocal": "Gambia",
+    "flag": "\uD83C\uDDEC\uD83C\uDDF2"
+  },
+  "GN": {
+    "bcp47": "fr-GN",
+    "iso3166": "GN",
+    "countryNameEnglish": "Guinea",
+    "countryNameLocal": "Guinée",
+    "flag": "\uD83C\uDDEC\uD83C\uDDF3"
+  },
+  "GQ": {
+    "bcp47": "es-GQ",
+    "iso3166": "GQ",
+    "countryNameEnglish": "Equatorial Guinea",
+    "countryNameLocal": "Guinea Ecuatorial",
+    "flag": "\uD83C\uDDEC\uD83C\uDDF6"
+  },
+  "GR": {
+    "bcp47": "el-GR",
+    "iso3166": "GR",
+    "countryNameEnglish": "Greece",
+    "countryNameLocal": "Ελλάδα",
+    "flag": "\uD83C\uDDEC\uD83C\uDDF7"
+  },
+  "GT": {
+    "bcp47": "es-GT",
+    "iso3166": "GT",
+    "countryNameEnglish": "Guatemala",
+    "countryNameLocal": "Guatemala",
+    "flag": "\uD83C\uDDEC\uD83C\uDDF9"
+  },
+  "GW": {
+    "bcp47": "pt-GW",
+    "iso3166": "GW",
+    "countryNameEnglish": "Guinea-Bissau",
+    "countryNameLocal": "Guiné-Bissau",
+    "flag": "\uD83C\uDDEC\uD83C\uDDFC"
+  },
+  "GY": {
+    "bcp47": "en-GY",
+    "iso3166": "GY",
+    "countryNameEnglish": "Guyana",
+    "countryNameLocal": "Guyana",
+    "flag": "\uD83C\uDDEC\uD83C\uDDFE"
+  },
+  "HN": {
+    "bcp47": "es-HN",
+    "iso3166": "HN",
+    "countryNameEnglish": "Honduras",
+    "countryNameLocal": "Honduras",
+    "flag": "\uD83C\uDDED\uD83C\uDDF3"
+  },
+  "HR": {
+    "bcp47": "hr-HR",
+    "iso3166": "HR",
+    "countryNameEnglish": "Croatia",
+    "countryNameLocal": "Hrvatska",
+    "flag": "\uD83C\uDDED\uD83C\uDDF7"
+  },
+  "HT": {
+    "bcp47": "fr-HT",
+    "iso3166": "HT",
+    "countryNameEnglish": "Haiti",
+    "countryNameLocal": "Haïti",
+    "flag": "\uD83C\uDDED\uD83C\uDDF9"
+  },
+  "HU": {
+    "bcp47": "hu-HU",
+    "iso3166": "HU",
+    "countryNameEnglish": "Hungary",
+    "countryNameLocal": "Magyarország",
+    "flag": "\uD83C\uDDED\uD83C\uDDFA"
+  },
+  "ID": {
+    "bcp47": "id-ID",
+    "iso3166": "ID",
+    "countryNameEnglish": "Indonesia",
+    "countryNameLocal": "Indonesia",
+    "flag": "\uD83C\uDDEE\uD83C\uDDE9"
+  },
+  "IE": {
+    "bcp47": "en-IE",
+    "iso3166": "IE",
+    "countryNameEnglish": "Ireland",
+    "countryNameLocal": "Ireland",
+    "flag": "\uD83C\uDDEE\uD83C\uDDEA"
+  },
+  "IL": {
+    "bcp47": "he-IL",
+    "iso3166": "IL",
+    "countryNameEnglish": "Israel",
+    "countryNameLocal": "ישראל",
+    "flag": "\uD83C\uDDEE\uD83C\uDDF1"
+  },
+  "IN": {
+    "bcp47": "hi-IN",
+    "iso3166": "IN",
+    "countryNameEnglish": "India",
+    "countryNameLocal": "भारत",
+    "flag": "\uD83C\uDDEE\uD83C\uDDF3"
+  },
+  "IQ": {
+    "bcp47": "ar-IQ",
+    "iso3166": "IQ",
+    "countryNameEnglish": "Iraq",
+    "countryNameLocal": "العراق",
+    "flag": "\uD83C\uDDEE\uD83C\uDDF6"
+  },
+  "IR": {
+    "bcp47": "fa-IR",
+    "iso3166": "IR",
+    "countryNameEnglish": "Iran",
+    "countryNameLocal": "ایران",
+    "flag": "\uD83C\uDDEE\uD83C\uDDF7"
+  },
+  "IS": {
+    "bcp47": "is-IS",
+    "iso3166": "IS",
+    "countryNameEnglish": "Iceland",
+    "countryNameLocal": "Ísland",
+    "flag": "\uD83C\uDDEE\uD83C\uDDF8"
+  },
+  "JM": {
+    "bcp47": "en-JM",
+    "iso3166": "JM",
+    "countryNameEnglish": "Jamaica",
+    "countryNameLocal": "Jamaica",
+    "flag": "\uD83C\uDDEF\uD83C\uDDF2"
+  },
+  "JO": {
+    "bcp47": "ar-JO",
+    "iso3166": "JO",
+    "countryNameEnglish": "Jordan",
+    "countryNameLocal": "الأردن",
+    "flag": "\uD83C\uDDEF\uD83C\uDDF4"
+  },
+  "JP": {
+    "bcp47": "ja-JP",
+    "iso3166": "JP",
+    "countryNameEnglish": "Japan",
+    "countryNameLocal": "日本",
+    "flag": "\uD83C\uDDEF\uD83C\uDDF5"
+  },
+  "KE": {
+    "bcp47": "sw-KE",
+    "iso3166": "KE",
+    "countryNameEnglish": "Kenya",
+    "countryNameLocal": "Kenya",
+    "flag": "\uD83C\uDDF0\uD83C\uDDEA"
+  },
+  "KG": {
+    "bcp47": "ky-KG",
+    "iso3166": "KG",
+    "countryNameEnglish": "Kyrgyzstan",
+    "countryNameLocal": "Кыргызстан",
+    "flag": "\uD83C\uDDF0\uD83C\uDDEC"
+  },
+  "KH": {
+    "bcp47": "km-KH",
+    "iso3166": "KH",
+    "countryNameEnglish": "Cambodia",
+    "countryNameLocal": "កម្ពុជា",
+    "flag": "\uD83C\uDDF0\uD83C\uDDED"
+  },
+  "KI": {
+    "bcp47": "en-KI",
+    "iso3166": "KI",
+    "countryNameEnglish": "Kiribati",
+    "countryNameLocal": "Kiribati",
+    "flag": "\uD83C\uDDF0\uD83C\uDDEE"
+  },
+  "KM": {
+    "bcp47": "ar-KM",
+    "iso3166": "KM",
+    "countryNameEnglish": "Comoros",
+    "countryNameLocal": "جزر القمر",
+    "flag": "\uD83C\uDDF0\uD83C\uDDF2"
+  },
+  "KN": {
+    "bcp47": "en-KN",
+    "iso3166": "KN",
+    "countryNameEnglish": "Saint Kitts and Nevis",
+    "countryNameLocal": "Saint Kitts and Nevis",
+    "flag": "\uD83C\uDDF0\uD83C\uDDF3"
+  },
+  "KP": {
+    "bcp47": "ko-KP",
+    "iso3166": "KP",
+    "countryNameEnglish": "North Korea",
+    "countryNameLocal": "조선민주주의인민공화국",
+    "flag": "\uD83C\uDDF0\uD83C\uDDF5"
+  },
+  "KR": {
+    "bcp47": "ko-KR",
+    "iso3166": "KR",
+    "countryNameEnglish": "South Korea",
+    "countryNameLocal": "대한민국",
+    "flag": "\uD83C\uDDF0\uD83C\uDDF7"
+  },
+  "KW": {
+    "bcp47": "ar-KW",
+    "iso3166": "KW",
+    "countryNameEnglish": "Kuwait",
+    "countryNameLocal": "الكويت",
+    "flag": "\uD83C\uDDF0\uD83C\uDDFC"
+  },
+  "KZ": {
+    "bcp47": "kk-KZ",
+    "iso3166": "KZ",
+    "countryNameEnglish": "Kazakhstan",
+    "countryNameLocal": "Қазақстан",
+    "flag": "\uD83C\uDDF0\uD83C\uDDFF"
+  },
+  "LA": {
+    "bcp47": "lo-LA",
+    "iso3166": "LA",
+    "countryNameEnglish": "Laos",
+    "countryNameLocal": "ລາວ",
+    "flag": "\uD83C\uDDF1\uD83C\uDDE6"
+  },
+  "LB": {
+    "bcp47": "ar-LB",
+    "iso3166": "LB",
+    "countryNameEnglish": "Lebanon",
+    "countryNameLocal": "لبنان",
+    "flag": "\uD83C\uDDF1\uD83C\uDDE7"
+  },
+  "LC": {
+    "bcp47": "en-LC",
+    "iso3166": "LC",
+    "countryNameEnglish": "Saint Lucia",
+    "countryNameLocal": "Saint Lucia",
+    "flag": "\uD83C\uDDF1\uD83C\uDDE8"
+  },
+  "LI": {
+    "bcp47": "de-LI",
+    "iso3166": "LI",
+    "countryNameEnglish": "Liechtenstein",
+    "countryNameLocal": "Liechtenstein",
+    "flag": "\uD83C\uDDF1\uD83C\uDDEE"
+  },
+  "LK": {
+    "bcp47": "si-LK",
+    "iso3166": "LK",
+    "countryNameEnglish": "Sri Lanka",
+    "countryNameLocal": "ශ්‍රී ලංකාව",
+    "flag": "\uD83C\uDDF1\uD83C\uDDF0"
+  },
+  "LR": {
+    "bcp47": "en-LR",
+    "iso3166": "LR",
+    "countryNameEnglish": "Liberia",
+    "countryNameLocal": "Liberia",
+    "flag": "\uD83C\uDDF1\uD83C\uDDF7"
+  },
+  "LS": {
+    "bcp47": "en-LS",
+    "iso3166": "LS",
+    "countryNameEnglish": "Lesotho",
+    "countryNameLocal": "Lesotho",
+    "flag": "\uD83C\uDDF1\uD83C\uDDF8"
+  },
+  "LT": {
+    "bcp47": "lt-LT",
+    "iso3166": "LT",
+    "countryNameEnglish": "Lithuania",
+    "countryNameLocal": "Lietuva",
+    "flag": "\uD83C\uDDF1\uD83C\uDDF9"
+  },
+  "LU": {
+    "bcp47": "fr-LU",
+    "iso3166": "LU",
+    "countryNameEnglish": "Luxembourg",
+    "countryNameLocal": "Luxembourg",
+    "flag": "\uD83C\uDDF1\uD83C\uDDFA"
+  },
+  "LV": {
+    "bcp47": "lv-LV",
+    "iso3166": "LV",
+    "countryNameEnglish": "Latvia",
+    "countryNameLocal": "Latvija",
+    "flag": "\uD83C\uDDF1\uD83C\uDDFB"
+  },
+  "LY": {
+    "bcp47": "ar-LY",
+    "iso3166": "LY",
+    "countryNameEnglish": "Libya",
+    "countryNameLocal": "ليبيا",
+    "flag": "\uD83C\uDDF1\uD83C\uDDFE"
+  },
+  "MA": {
+    "bcp47": "ar-MA",
+    "iso3166": "MA",
+    "countryNameEnglish": "Morocco",
+    "countryNameLocal": "المغرب",
+    "flag": "\uD83C\uDDF2\uD83C\uDDE6"
+  },
+  "MC": {
+    "bcp47": "fr-MC",
+    "iso3166": "MC",
+    "countryNameEnglish": "Monaco",
+    "countryNameLocal": "Monaco",
+    "flag": "\uD83C\uDDF2\uD83C\uDDE8"
+  },
+  "MD": {
+    "bcp47": "ro-MD",
+    "iso3166": "MD",
+    "countryNameEnglish": "Moldova",
+    "countryNameLocal": "Moldova",
+    "flag": "\uD83C\uDDF2\uD83C\uDDE9"
+  },
+  "ME": {
+    "bcp47": "sr-ME",
+    "iso3166": "ME",
+    "countryNameEnglish": "Montenegro",
+    "countryNameLocal": "Црна Гора",
+    "flag": "\uD83C\uDDF2\uD83C\uDDEA"
+  },
+  "MG": {
+    "bcp47": "mg-MG",
+    "iso3166": "MG",
+    "countryNameEnglish": "Madagascar",
+    "countryNameLocal": "Madagasikara",
+    "flag": "\uD83C\uDDF2\uD83C\uDDEC"
+  },
+  "MH": {
+    "bcp47": "en-MH",
+    "iso3166": "MH",
+    "countryNameEnglish": "Marshall Islands",
+    "countryNameLocal": "Marshall Islands",
+    "flag": "\uD83C\uDDF2\uD83C\uDDED"
+  },
+  "MK": {
+    "bcp47": "mk-MK",
+    "iso3166": "MK",
+    "countryNameEnglish": "North Macedonia",
+    "countryNameLocal": "Северна Македонија",
+    "flag": "\uD83C\uDDF2\uD83C\uDDF0"
+  },
+  "ML": {
+    "bcp47": "fr-ML",
+    "iso3166": "ML",
+    "countryNameEnglish": "Mali",
+    "countryNameLocal": "Mali",
+    "flag": "\uD83C\uDDF2\uD83C\uDDF1"
+  },
+  "MM": {
+    "bcp47": "my-MM",
+    "iso3166": "MM",
+    "countryNameEnglish": "Myanmar",
+    "countryNameLocal": "မြန်မာ",
+    "flag": "\uD83C\uDDF2\uD83C\uDDF2"
+  },
+  "MN": {
+    "bcp47": "mn-MN",
+    "iso3166": "MN",
+    "countryNameEnglish": "Mongolia",
+    "countryNameLocal": "Монгол улс",
+    "flag": "\uD83C\uDDF2\uD83C\uDDF3"
+  },
+  "MR": {
+    "bcp47": "ar-MR",
+    "iso3166": "MR",
+    "countryNameEnglish": "Mauritania",
+    "countryNameLocal": "موريتانيا",
+    "flag": "\uD83C\uDDF2\uD83C\uDDF7"
+  },
+  "MT": {
+    "bcp47": "mt-MT",
+    "iso3166": "MT",
+    "countryNameEnglish": "Malta",
+    "countryNameLocal": "Malta",
+    "flag": "\uD83C\uDDF2\uD83C\uDDF9"
+  },
+  "MU": {
+    "bcp47": "en-MU",
+    "iso3166": "MU",
+    "countryNameEnglish": "Mauritius",
+    "countryNameLocal": "Mauritius",
+    "flag": "\uD83C\uDDF2\uD83C\uDDFA"
+  },
+  "MV": {
+    "bcp47": "dv-MV",
+    "iso3166": "MV",
+    "countryNameEnglish": "Maldives",
+    "countryNameLocal": "ދިވެހިރާއްޖެ",
+    "flag": "\uD83C\uDDF2\uD83C\uDDFB"
+  },
+  "MW": {
+    "bcp47": "en-MW",
+    "iso3166": "MW",
+    "countryNameEnglish": "Malawi",
+    "countryNameLocal": "Malawi",
+    "flag": "\uD83C\uDDF2\uD83C\uDDFC"
+  },
+  "MX": {
+    "bcp47": "es-MX",
+    "iso3166": "MX",
+    "countryNameEnglish": "Mexico",
+    "countryNameLocal": "México",
+    "flag": "\uD83C\uDDF2\uD83C\uDDFD"
+  },
+  "MY": {
+    "bcp47": "ms-MY",
+    "iso3166": "MY",
+    "countryNameEnglish": "Malaysia",
+    "countryNameLocal": "Malaysia",
+    "flag": "\uD83C\uDDF2\uD83C\uDDFE"
+  },
+  "MZ": {
+    "bcp47": "pt-MZ",
+    "iso3166": "MZ",
+    "countryNameEnglish": "Mozambique",
+    "countryNameLocal": "Moçambique",
+    "flag": "\uD83C\uDDF2\uD83C\uDDFF"
+  },
+  "NA": {
+    "bcp47": "en-NA",
+    "iso3166": "NA",
+    "countryNameEnglish": "Namibia",
+    "countryNameLocal": "Namibia",
+    "flag": "\uD83C\uDDF3\uD83C\uDDE6"
+  },
+  "NE": {
+    "bcp47": "fr-NE",
+    "iso3166": "NE",
+    "countryNameEnglish": "Niger",
+    "countryNameLocal": "Niger",
+    "flag": "\uD83C\uDDF3\uD83C\uDDEA"
+  },
+  "NG": {
+    "bcp47": "en-NG",
+    "iso3166": "NG",
+    "countryNameEnglish": "Nigeria",
+    "countryNameLocal": "Nigeria",
+    "flag": "\uD83C\uDDF3\uD83C\uDDEC"
+  },
+  "NI": {
+    "bcp47": "es-NI",
+    "iso3166": "NI",
+    "countryNameEnglish": "Nicaragua",
+    "countryNameLocal": "Nicaragua",
+    "flag": "\uD83C\uDDF3\uD83C\uDDEE"
+  },
+  "NL": {
+    "bcp47": "nl-NL",
+    "iso3166": "NL",
+    "countryNameEnglish": "Netherlands",
+    "countryNameLocal": "Nederland",
+    "flag": "\uD83C\uDDF3\uD83C\uDDF1"
+  },
+  "NO": {
+    "bcp47": "nb-NO",
+    "iso3166": "NO",
+    "countryNameEnglish": "Norway",
+    "countryNameLocal": "Norge",
+    "flag": "\uD83C\uDDF3\uD83C\uDDF4"
+  },
+  "NP": {
+    "bcp47": "ne-NP",
+    "iso3166": "NP",
+    "countryNameEnglish": "Nepal",
+    "countryNameLocal": "नेपाल",
+    "flag": "\uD83C\uDDF3\uD83C\uDDF5"
+  },
+  "NR": {
+    "bcp47": "en-NR",
+    "iso3166": "NR",
+    "countryNameEnglish": "Nauru",
+    "countryNameLocal": "Nauru",
+    "flag": "\uD83C\uDDF3\uD83C\uDDF7"
+  },
+  "NU": {
+    "bcp47": "en-NU",
+    "iso3166": "NU",
+    "countryNameEnglish": "Niue",
+    "countryNameLocal": "Niue",
+    "flag": "\uD83C\uDDF3\uD83C\uDDFA"
+  },
+  "NZ": {
+    "bcp47": "en-NZ",
+    "iso3166": "NZ",
+    "countryNameEnglish": "New Zealand",
+    "countryNameLocal": "New Zealand",
+    "flag": "\uD83C\uDDF3\uD83C\uDDFF"
+  },
+  "OM": {
+    "bcp47": "ar-OM",
+    "iso3166": "OM",
+    "countryNameEnglish": "Oman",
+    "countryNameLocal": "عمان",
+    "flag": "\uD83C\uDDF4\uD83C\uDDF2"
+  },
+  "PA": {
+    "bcp47": "es-PA",
+    "iso3166": "PA",
+    "countryNameEnglish": "Panama",
+    "countryNameLocal": "Panamá",
+    "flag": "\uD83C\uDDF5\uD83C\uDDE6"
+  },
+  "PE": {
+    "bcp47": "es-PE",
+    "iso3166": "PE",
+    "countryNameEnglish": "Peru",
+    "countryNameLocal": "Perú",
+    "flag": "\uD83C\uDDF5\uD83C\uDDEA"
+  },
+  "PG": {
+    "bcp47": "en-PG",
+    "iso3166": "PG",
+    "countryNameEnglish": "Papua New Guinea",
+    "countryNameLocal": "Papua New Guinea",
+    "flag": "\uD83C\uDDF5\uD83C\uDDEC"
+  },
+  "PH": {
+    "bcp47": "en-PH",
+    "iso3166": "PH",
+    "countryNameEnglish": "Philippines",
+    "countryNameLocal": "Philippines",
+    "flag": "\uD83C\uDDF5\uD83C\uDDED"
+  },
+  "PK": {
+    "bcp47": "ur-PK",
+    "iso3166": "PK",
+    "countryNameEnglish": "Pakistan",
+    "countryNameLocal": "پاکستان",
+    "flag": "\uD83C\uDDF5\uD83C\uDDF0"
+  },
+  "PL": {
+    "bcp47": "pl-PL",
+    "iso3166": "PL",
+    "countryNameEnglish": "Poland",
+    "countryNameLocal": "Polska",
+    "flag": "\uD83C\uDDF5\uD83C\uDDF1"
+  },
+  "PT": {
+    "bcp47": "pt-PT",
+    "iso3166": "PT",
+    "countryNameEnglish": "Portugal",
+    "countryNameLocal": "Portugal",
+    "flag": "\uD83C\uDDF5\uD83C\uDDF9"
+  },
+  "PW": {
+    "bcp47": "en-PW",
+    "iso3166": "PW",
+    "countryNameEnglish": "Palau",
+    "countryNameLocal": "Palau",
+    "flag": "\uD83C\uDDF5\uD83C\uDDFC"
+  },
+  "PY": {
+    "bcp47": "es-PY",
+    "iso3166": "PY",
+    "countryNameEnglish": "Paraguay",
+    "countryNameLocal": "Paraguay",
+    "flag": "\uD83C\uDDF5\uD83C\uDDFE"
+  },
+  "QA": {
+    "bcp47": "ar-QA",
+    "iso3166": "QA",
+    "countryNameEnglish": "Qatar",
+    "countryNameLocal": "قطر",
+    "flag": "\uD83C\uDDF6\uD83C\uDDE6"
+  },
+  "RO": {
+    "bcp47": "ro-RO",
+    "iso3166": "RO",
+    "countryNameEnglish": "Romania",
+    "countryNameLocal": "România",
+    "flag": "\uD83C\uDDF7\uD83C\uDDF4"
+  },
+  "RS": {
+    "bcp47": "sr-RS",
+    "iso3166": "RS",
+    "countryNameEnglish": "Serbia",
+    "countryNameLocal": "Србија",
+    "flag": "\uD83C\uDDF7\uD83C\uDDF8"
+  },
+  "RU": {
+    "bcp47": "ru-RU",
+    "iso3166": "RU",
+    "countryNameEnglish": "Russia",
+    "countryNameLocal": "Россия",
+    "flag": "\uD83C\uDDF7\uD83C\uDDFA"
+  },
+  "RW": {
+    "bcp47": "rw-RW",
+    "iso3166": "RW",
+    "countryNameEnglish": "Rwanda",
+    "countryNameLocal": "Rwanda",
+    "flag": "\uD83C\uDDF7\uD83C\uDDFC"
+  },
+  "SA": {
+    "bcp47": "ar-SA",
+    "iso3166": "SA",
+    "countryNameEnglish": "Saudi Arabia",
+    "countryNameLocal": "المملكة العربية السعودية",
+    "flag": "\uD83C\uDDF8\uD83C\uDDE6"
+  },
+  "SB": {
+    "bcp47": "en-SB",
+    "iso3166": "SB",
+    "countryNameEnglish": "Solomon Islands",
+    "countryNameLocal": "Solomon Islands",
+    "flag": "\uD83C\uDDF8\uD83C\uDDE7"
+  },
+  "SC": {
+    "bcp47": "en-SC",
+    "iso3166": "SC",
+    "countryNameEnglish": "Seychelles",
+    "countryNameLocal": "Seychelles",
+    "flag": "\uD83C\uDDF8\uD83C\uDDE8"
+  },
+  "SD": {
+    "bcp47": "ar-SD",
+    "iso3166": "SD",
+    "countryNameEnglish": "Sudan",
+    "countryNameLocal": "السودان",
+    "flag": "\uD83C\uDDF8\uD83C\uDDE9"
+  },
+  "SE": {
+    "bcp47": "sv-SE",
+    "iso3166": "SE",
+    "countryNameEnglish": "Sweden",
+    "countryNameLocal": "Sverige",
+    "flag": "\uD83C\uDDF8\uD83C\uDDEA"
+  },
+  "SG": {
+    "bcp47": "en-SG",
+    "iso3166": "SG",
+    "countryNameEnglish": "Singapore",
+    "countryNameLocal": "Singapore",
+    "flag": "\uD83C\uDDF8\uD83C\uDDEC"
+  },
+  "SI": {
+    "bcp47": "sl-SI",
+    "iso3166": "SI",
+    "countryNameEnglish": "Slovenia",
+    "countryNameLocal": "Slovenija",
+    "flag": "\uD83C\uDDF8\uD83C\uDDEE"
+  },
+  "SK": {
+    "bcp47": "sk-SK",
+    "iso3166": "SK",
+    "countryNameEnglish": "Slovakia",
+    "countryNameLocal": "Slovensko",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF0"
+  },
+  "SL": {
+    "bcp47": "en-SL",
+    "iso3166": "SL",
+    "countryNameEnglish": "Sierra Leone",
+    "countryNameLocal": "Sierra Leone",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF1"
+  },
+  "SM": {
+    "bcp47": "it-SM",
+    "iso3166": "SM",
+    "countryNameEnglish": "San Marino",
+    "countryNameLocal": "San Marino",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF2"
+  },
+  "SN": {
+    "bcp47": "fr-SN",
+    "iso3166": "SN",
+    "countryNameEnglish": "Senegal",
+    "countryNameLocal": "Sénégal",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF3"
+  },
+  "SO": {
+    "bcp47": "so-SO",
+    "iso3166": "SO",
+    "countryNameEnglish": "Somalia",
+    "countryNameLocal": "Soomaaliya",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF4"
+  },
+  "SR": {
+    "bcp47": "nl-SR",
+    "iso3166": "SR",
+    "countryNameEnglish": "Suriname",
+    "countryNameLocal": "Suriname",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF7"
+  },
+  "SS": {
+    "bcp47": "en-SS",
+    "iso3166": "SS",
+    "countryNameEnglish": "South Sudan",
+    "countryNameLocal": "South Sudan",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF8"
+  },
+  "ST": {
+    "bcp47": "pt-ST",
+    "iso3166": "ST",
+    "countryNameEnglish": "São Tomé and Príncipe",
+    "countryNameLocal": "São Tomé e Príncipe",
+    "flag": "\uD83C\uDDF8\uD83C\uDDF9"
+  },
+  "SV": {
+    "bcp47": "es-SV",
+    "iso3166": "SV",
+    "countryNameEnglish": "El Salvador",
+    "countryNameLocal": "El Salvador",
+    "flag": "\uD83C\uDDF8\uD83C\uDDFB"
+  },
+  "SY": {
+    "bcp47": "ar-SY",
+    "iso3166": "SY",
+    "countryNameEnglish": "Syria",
+    "countryNameLocal": "سوريا",
+    "flag": "\uD83C\uDDF8\uD83C\uDDFE"
+  },
+  "SZ": {
+    "bcp47": "en-SZ",
+    "iso3166": "SZ",
+    "countryNameEnglish": "Eswatini",
+    "countryNameLocal": "Eswatini",
+    "flag": "\uD83C\uDDF8\uD83C\uDDFF"
+  },
+  "TD": {
+    "bcp47": "fr-TD",
+    "iso3166": "TD",
+    "countryNameEnglish": "Chad",
+    "countryNameLocal": "Tchad",
+    "flag": "\uD83C\uDDF9\uD83C\uDDE9"
+  },
+  "TG": {
+    "bcp47": "fr-TG",
+    "iso3166": "TG",
+    "countryNameEnglish": "Togo",
+    "countryNameLocal": "Togo",
+    "flag": "\uD83C\uDDF9\uD83C\uDDEC"
+  },
+  "TH": {
+    "bcp47": "th-TH",
+    "iso3166": "TH",
+    "countryNameEnglish": "Thailand",
+    "countryNameLocal": "ประเทศไทย",
+    "flag": "\uD83C\uDDF9\uD83C\uDDED"
+  },
+  "TJ": {
+    "bcp47": "tg-TJ",
+    "iso3166": "TJ",
+    "countryNameEnglish": "Tajikistan",
+    "countryNameLocal": "Тоҷикистон",
+    "flag": "\uD83C\uDDF9\uD83C\uDDEF"
+  },
+  "TK": {
+    "bcp47": "en-TK",
+    "iso3166": "TK",
+    "countryNameEnglish": "Tokelau",
+    "countryNameLocal": "Tokelau",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF0"
+  },
+  "TL": {
+    "bcp47": "pt-TL",
+    "iso3166": "TL",
+    "countryNameEnglish": "Timor-Leste",
+    "countryNameLocal": "Timor-Leste",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF1"
+  },
+  "TM": {
+    "bcp47": "tk-TM",
+    "iso3166": "TM",
+    "countryNameEnglish": "Turkmenistan",
+    "countryNameLocal": "Türkmenистан",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF2"
+  },
+  "TN": {
+    "bcp47": "ar-TN",
+    "iso3166": "TN",
+    "countryNameEnglish": "Tunisia",
+    "countryNameLocal": "تونس",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF3"
+  },
+  "TO": {
+    "bcp47": "en-TO",
+    "iso3166": "TO",
+    "countryNameEnglish": "Tonga",
+    "countryNameLocal": "Tonga",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF4"
+  },
+  "TR": {
+    "bcp47": "tr-TR",
+    "iso3166": "TR",
+    "countryNameEnglish": "Turkey",
+    "countryNameLocal": "Türkiye",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF7"
+  },
+  "TT": {
+    "bcp47": "en-TT",
+    "iso3166": "TT",
+    "countryNameEnglish": "Trinidad and Tobago",
+    "countryNameLocal": "Trinidad and Tobago",
+    "flag": "\uD83C\uDDF9\uD83C\uDDF9"
+  },
+  "TV": {
+    "bcp47": "en-TV",
+    "iso3166": "TV",
+    "countryNameEnglish": "Tuvalu",
+    "countryNameLocal": "Tuvalu",
+    "flag": "\uD83C\uDDF9\uD83C\uDDFB"
+  },
+  "TZ": {
+    "bcp47": "sw-TZ",
+    "iso3166": "TZ",
+    "countryNameEnglish": "Tanzania",
+    "countryNameLocal": "Tanzania",
+    "flag": "\uD83C\uDDF9\uD83C\uDDFF"
+  },
+  "UA": {
+    "bcp47": "uk-UA",
+    "iso3166": "UA",
+    "countryNameEnglish": "Ukraine",
+    "countryNameLocal": "Україна",
+    "flag": "\uD83C\uDDFA\uD83C\uDDE6"
+  },
+  "UG": {
+    "bcp47": "en-UG",
+    "iso3166": "UG",
+    "countryNameEnglish": "Uganda",
+    "countryNameLocal": "Uganda",
+    "flag": "\uD83C\uDDFA\uD83C\uDDEC"
+  },
+  "US": {
+    "bcp47": "en-US",
+    "iso3166": "US",
+    "countryNameEnglish": "United States",
+    "countryNameLocal": "United States",
+    "flag": "\uD83C\uDDFA\uD83C\uDDF8"
+  },
+  "UY": {
+    "bcp47": "es-UY",
+    "iso3166": "UY",
+    "countryNameEnglish": "Uruguay",
+    "countryNameLocal": "Uruguay",
+    "flag": "\uD83C\uDDFA\uD83C\uDDFE"
+  },
+  "UZ": {
+    "bcp47": "uz-UZ",
+    "iso3166": "UZ",
+    "countryNameEnglish": "Uzbekistan",
+    "countryNameLocal": "Oʻzbekiston",
+    "flag": "\uD83C\uDDFA\uD83C\uDDFF"
+  },
+  "VC": {
+    "bcp47": "en-VC",
+    "iso3166": "VC",
+    "countryNameEnglish": "Saint Vincent and the Grenadines",
+    "countryNameLocal": "Saint Vincent and the Grenadines",
+    "flag": "\uD83C\uDDFB\uD83C\uDDE8"
+  },
+  "VE": {
+    "bcp47": "es-VE",
+    "iso3166": "VE",
+    "countryNameEnglish": "Venezuela",
+    "countryNameLocal": "Venezuela",
+    "flag": "\uD83C\uDDFB\uD83C\uDDEA"
+  },
+  "VN": {
+    "bcp47": "vi-VN",
+    "iso3166": "VN",
+    "countryNameEnglish": "Vietnam",
+    "countryNameLocal": "Việt Nam",
+    "flag": "\uD83C\uDDFB\uD83C\uDDF3"
+  },
+  "VU": {
+    "bcp47": "bi-VU",
+    "iso3166": "VU",
+    "countryNameEnglish": "Vanuatu",
+    "countryNameLocal": "Vanuatu",
+    "flag": "\uD83C\uDDFB\uD83C\uDDFA"
+  },
+  "WS": {
+    "bcp47": "sm-WS",
+    "iso3166": "WS",
+    "countryNameEnglish": "Samoa",
+    "countryNameLocal": "Samoa",
+    "flag": "\uD83C\uDDFC\uD83C\uDDF8"
+  },
+  "YE": {
+    "bcp47": "ar-YE",
+    "iso3166": "YE",
+    "countryNameEnglish": "Yemen",
+    "countryNameLocal": "اليمن",
+    "flag": "\uD83C\uDDFE\uD83C\uDDEA"
+  },
+  "ZA": {
+    "bcp47": "af-ZA",
+    "iso3166": "ZA",
+    "countryNameEnglish": "South Africa",
+    "countryNameLocal": "Suid-Afrika",
+    "flag": "\uD83C\uDDFF\uD83C\uDDE6"
+  },
+  "ZM": {
+    "bcp47": "en-ZM",
+    "iso3166": "ZM",
+    "countryNameEnglish": "Zambia",
+    "countryNameLocal": "Zambia",
+    "flag": "\uD83C\uDDFF\uD83C\uDDF2"
+  },
+  "ZW": {
+    "bcp47": "en-ZW",
+    "iso3166": "ZW",
+    "countryNameEnglish": "Zimbabwe",
+    "countryNameLocal": "Zimbabwe",
+    "flag": "\uD83C\uDDFF\uD83C\uDDFC"
+  }
+}
