@@ -1,10 +1,23 @@
+// TODO: This should be replaced with dynamic imports of all language files somehow
 import defaultTranslation from '@root/language/en.json';
 import translationsDE from '@root/language/de.json';
+import translationsESMX from '@root/language/es-mx.json';
+import translationsES from '@root/language/es.json';
+import translationsNB from '@root/language/nb.json';
+import translationsNN from '@root/language/nn.json';
+import translationsSMA from '@root/language/sma.json';
+import translationsSME from '@root/language/sme.json';
 
 /** @constant {object} TRANSLATIONS Translations for supported languages. */
 const TRANSLATIONS = {
   de: translationsDE,
   en: defaultTranslation,
+  'es-MX': translationsESMX,
+  es: translationsES,
+  nb: translationsNB,
+  nn: translationsNN,
+  sma: translationsSMA,
+  sme: translationsSME,
 };
 
 /**
