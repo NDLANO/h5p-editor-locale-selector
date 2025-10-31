@@ -308,9 +308,25 @@ export default class LocaleSelector {
       return;
     }
 
-    this.updateTargetFields(allValues);
+    const updatedProperties = this.updateTargetFields(allValues);
+    allValues = this.filterUpdatedProperties(allValues, updatedProperties);
     allValues = this.filterRequestedProperties(allValues);
     this.updateOwnFieldValue(allValues);
+  }
+
+  /**
+   * Filter out updated properties from locale values.
+   * @param {object} allValues Locale values to filter.
+   * @param {string[]} updatedProperties List of properties that were already updated.
+   * @returns {object} Filtered locale values.
+   */
+  filterUpdatedProperties(allValues, updatedProperties) {
+    const filtered = { ...allValues };
+    updatedProperties.forEach((key) => {
+      delete filtered[key];
+    });
+
+    return filtered;
   }
 
   /**
@@ -336,14 +352,19 @@ export default class LocaleSelector {
   /**
    * Update target field instances with locale values.
    * @param {object} allValues Locale values to apply to target fields.
+   * @returns {string[]} List of all updated locale keys.
    */
   updateTargetFields(allValues) {
+    const updatedKeys = [];
     for (const localeKey in this.targetFieldInstances) {
       if (localeKey in allValues) {
         const targetFieldInstance = this.targetFieldInstances[localeKey];
         targetFieldInstance.forceValue(allValues[localeKey]);
+        updatedKeys.push(localeKey);
       }
     }
+
+    return updatedKeys;
   }
 
   /**

@@ -202,7 +202,7 @@ By setting the `noFlag` property to the boolean `true`, you can get a selector t
 ```
 
 ### targetFieldMap
-You may not be comfortable with handling multiple requested properties in a string, or you may want the author to be able to modify the value after picking a language or country. In that case, you can set up additional text fields as target fields in your `semantics.json` file and instruct the widget to put a value into that text field.
+You may not be comfortable with handling multiple requested properties in a string, or you may want the author to be able to modify the value after picking a language or country. In that case, you can set up additional text fields as target fields in your `semantics.json` file and instruct the widget to put a value into that text field. The value will then not be put into the field that you set the widget on, but only into the target field.
 
 In order to achieve that, you would add key/value pairs to a `targetFieldMap` object inside the `localeSelector` property. As key you would set one of the properties that you can use as `requestedProperties`. The value needs to be a relative path to the target semantics field - starting from the field that the widget is attached to.
 
