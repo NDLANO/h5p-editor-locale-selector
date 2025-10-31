@@ -398,6 +398,13 @@
     "iso639-1": "sma",
     "flag": "\uD83C\uDDF3\uD83C\uDDF4"
   },
+  "sme": {
+    "bcp47": "sme",
+    "languageNameEnglish": "Northern Sami",
+    "languageNameLocal": "Davvisámegiella",
+    "iso639-1": "sme",
+    "flag": "\uD83C\uDDF3\uD83C\uDDF4"
+  },
   "sq": {
     "bcp47": "sq",
     "languageNameEnglish": "Albanian",
