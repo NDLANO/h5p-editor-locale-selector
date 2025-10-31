@@ -485,7 +485,8 @@ export default class LocaleSelector {
    * Handle change of field and inform callers.
    */
   handleFieldChange() {
-    this.params = this.fieldInstance.params;
+    this.params = this.fieldInstance.value;
+
     this.changes.forEach((change) => {
       change(this.params);
     });
