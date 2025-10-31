@@ -8,9 +8,8 @@ In order to use the language selector, just apply `"widget": "localeSelector"` t
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the language for this content.",
   "widget": "localeSelector",
 }
 ```
@@ -43,9 +42,8 @@ In order to let the author choose a country instead, add `"localeSelector": { "t
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the country for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the country for this content.",
   "widget": "localeSelector",
   "localeSelector": {
     "type": "country"
@@ -65,9 +63,8 @@ Tags/codes that are invalid or that not information is available for will be ign
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the locale for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the locale for this content.",
   "widget": "localeSelector",
   "optional": true,
   "localeSelector": {
@@ -89,9 +86,8 @@ Tags that are invalid ot that no language information is defined for in the widg
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the language for this content.",
   "widget": "localeSelector",
   "localeSelector": {
     "requestedBCP47s": ["ko", "ja"]
@@ -111,9 +107,8 @@ Codes that are invalid ot that no country information is defined for in the widg
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the country for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the country for this content.",
   "widget": "localeSelector",
   "localeSelector": {
     "type": "country",
@@ -180,9 +175,8 @@ You would then JSON-encode it to get the respective object back:
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the language for this content.",
   "widget": "localeSelector",
   "localeSelector": {
     "requestedBCP47s": ["bcp47", "flag", "iso639-1", "languageNameEnglish", "languageNameLocal", "languageNameTranslated"]
@@ -198,9 +192,8 @@ By setting the `noFlag` property to the boolean `true`, you can get a selector t
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the language for this content.",
   "widget": "localeSelector",
   "localeSelector": {
     "noFlag": true
@@ -220,9 +213,8 @@ Invalid property tags will be ignored. If the target field cannot be found, noth
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
-  "importance": "low",
   "label": "Locale",
+  "description": "Select the language for this content.",
   "widget": "localeSelector",
   "localeSelector": {
     "targetFieldMap": {
@@ -233,8 +225,7 @@ Invalid property tags will be ignored. If the target field cannot be found, noth
 {
   "name": "myExtraTextField",
   "type": "text",
-  "importance": "low",
-  "label": "Flag",
+  "label": "Local language name",
   "optional": true
 }
 ```
