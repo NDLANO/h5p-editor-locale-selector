@@ -359,7 +359,15 @@ export default class LocaleSelector {
     for (const localeKey in this.targetFieldInstances) {
       if (localeKey in allValues) {
         const targetFieldInstance = this.targetFieldInstances[localeKey];
-        targetFieldInstance.forceValue(allValues[localeKey]);
+
+        // widget "none" is never attached, so "forceValue" may not be available
+        if (typeof targetFieldInstance.forceValue !== 'function') {
+          targetFieldInstance.setValue(targetFieldInstance.field, allValues[localeKey]);
+        }
+        else {
+          targetFieldInstance.forceValue(allValues[localeKey]);
+        }
+
         updatedKeys.push(localeKey);
       }
     }
