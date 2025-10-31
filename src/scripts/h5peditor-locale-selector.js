@@ -77,11 +77,11 @@ export default class LocaleSelector {
    */
   initializeLocaleData() {
     for (const bcp47 in this.languagesData) {
-      const LanguageNameTranslated = getTranslation('H5PEditor.LocaleSelector', `languageLabel-${bcp47}`);
+      const languageNameTranslated = getTranslation('H5PEditor.LocaleSelector', `languageLabel-${bcp47}`);
 
       this.languagesData[bcp47] = {
         ...this.languagesData[bcp47],
-        LanguageNameTranslated: LanguageNameTranslated,
+        languageNameTranslated: languageNameTranslated,
       };
     }
 
@@ -195,7 +195,7 @@ export default class LocaleSelector {
    * @returns {object[]} Select options.
    */
   compileSelectOptions(type = '', requestedBCP47s = [], requestedISO3166s = [], data = {}, noFlag = false) {
-    const labelProperty = (type === LOCALESELECTOR_TYPE_COUNTRY) ? 'countryNameTranslated' : 'LanguageNameTranslated';
+    const labelProperty = (type === LOCALESELECTOR_TYPE_COUNTRY) ? 'countryNameTranslated' : 'languageNameTranslated';
     const requestedData = (type === LOCALESELECTOR_TYPE_COUNTRY) ? requestedISO3166s : requestedBCP47s;
     const localeData = (type === LOCALESELECTOR_TYPE_COUNTRY) ? data.countries : data.languages;
 
