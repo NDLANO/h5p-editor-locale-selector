@@ -43,7 +43,7 @@ In order to let the author choose a country instead, add `"localeSelector": { "t
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
+  "description": "Select the country for this content.",
   "importance": "low",
   "label": "Locale",
   "widget": "localeSelector",
@@ -111,7 +111,7 @@ Codes that are invalid ot that no country information is defined for in the widg
 {
   "name": "locale",
   "type": "text",
-  "description": "Select the language for this content.",
+  "description": "Select the country for this content.",
   "importance": "low",
   "label": "Locale",
   "widget": "localeSelector",
