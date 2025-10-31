@@ -1,6 +1,6 @@
 import { decode } from 'he';
 
-import { findEditorFormInstance, getTranslation } from '@services/h5p-util.js';
+import { findEditorFormInstance, getContentTranslation, getTranslation } from '@services/h5p-util.js';
 import { sanitizeLocaleSelectorConfig } from '@services/sanitization.js';
 
 import Description from '@components/description.js';
@@ -9,6 +9,7 @@ import Select from '@components/select.js';
 
 import countriesData from '@assets/countries.json';
 import languagesData from '@assets/languages.json';
+import LanguageSwitchDetector from './services/language-switch-detector.js';
 
 /** @constant {string} DEFAULT_BCP47 Default BCP47 language code. */
 const DEFAULT_BCP47 = 'en';
@@ -45,6 +46,8 @@ export default class LocaleSelector {
     this.countriesData = window.structuredClone(countriesData);
     this.languagesData = window.structuredClone(languagesData);
 
+    this.uuid = H5P.createUUID();
+
     this.initializeLocaleData();
     this.setupFieldInstance();
 
@@ -77,20 +80,20 @@ export default class LocaleSelector {
    */
   initializeLocaleData() {
     for (const bcp47 in this.languagesData) {
-      const languageNameTranslated = getTranslation('H5PEditor.LocaleSelector', `languageLabel-${bcp47}`);
+      const languageNameTranslatedEditor = getTranslation('H5PEditor.LocaleSelector', `languageLabel-${bcp47}`);
 
       this.languagesData[bcp47] = {
         ...this.languagesData[bcp47],
-        languageNameTranslated: languageNameTranslated,
+        languageNameTranslatedEditor: languageNameTranslatedEditor,
       };
     }
 
     for (const iso3166 in this.countriesData) {
-      const countryNameTranslated = getTranslation('H5PEditor.LocaleSelector', `countryLabel-${iso3166}`);
+      const countryNameTranslatedEditor = getTranslation('H5PEditor.LocaleSelector', `countryLabel-${iso3166}`);
 
       this.countriesData[iso3166] = {
         ...this.countriesData[iso3166],
-        countryNameTranslated: countryNameTranslated,
+        countryNameTranslatedEditor: countryNameTranslatedEditor,
       };
     }
 
@@ -195,7 +198,9 @@ export default class LocaleSelector {
    * @returns {object[]} Select options.
    */
   compileSelectOptions(type = '', requestedBCP47s = [], requestedISO3166s = [], data = {}, noFlag = false) {
-    const labelProperty = (type === LOCALESELECTOR_TYPE_COUNTRY) ? 'countryNameTranslated' : 'languageNameTranslated';
+    const labelProperty = (type === LOCALESELECTOR_TYPE_COUNTRY) ?
+      'countryNameTranslatedEditor' :
+      'languageNameTranslatedEditor';
     const requestedData = (type === LOCALESELECTOR_TYPE_COUNTRY) ? requestedISO3166s : requestedBCP47s;
     const localeData = (type === LOCALESELECTOR_TYPE_COUNTRY) ? data.countries : data.languages;
 
@@ -261,28 +266,31 @@ export default class LocaleSelector {
     const form = findEditorFormInstance(this);
     if (!form) {
       console.warn('Could not find H5PEditor.Form instance for LocaleSelector field.');
+      return;
     }
-    else {
-      form.ready(() => {
-        this.handleParentReady();
-      });
-    }
+
+    form.ready(() => {
+      this.handleParentReady(form);
+    });
   }
 
   /**
    * Handle parent field signals to be ready.
+   * @param {H5PEditor.Form} form Parent form instance.
    */
-  handleParentReady() {
-    this.setUpTargetFieldInstances();
+  handleParentReady(form) {
+    this.setupTargetFieldInstances();
 
     // Store initial values
     this.handleSelectChange(this.getSelectedValue(this.params, this.field.localeSelector.type));
+
+    this.setupLanguageSwitchDetector(form);
   }
 
   /**
    * Set up target field instances based on field map.
    */
-  setUpTargetFieldInstances() {
+  setupTargetFieldInstances() {
     for (const localeKey in this.field.localeSelector.targetFieldMap) {
       const fieldPath = this.field.localeSelector.targetFieldMap[localeKey];
       const targetFieldInstance = H5PEditor.findField(fieldPath, this.parent);
@@ -300,6 +308,8 @@ export default class LocaleSelector {
    * @param {string} selectedValue Selected BCP47 value.
    */
   handleSelectChange(selectedValue) {
+    this.updateNamesTranslatedContent(selectedValue);
+
     let allValues = this.field.localeSelector.type === LOCALESELECTOR_TYPE_COUNTRY ?
       this.countriesData[selectedValue] :
       this.languagesData[selectedValue];
@@ -312,6 +322,65 @@ export default class LocaleSelector {
     allValues = this.filterUpdatedProperties(allValues, updatedProperties);
     allValues = this.filterRequestedProperties(allValues);
     this.updateOwnFieldValue(allValues);
+  }
+
+  /**
+   * Update translated names in locale data based on content language.
+   * @param {string} [selectedValue] Selected BCP47 or ISO 3166 value to update for. If not provided, all values are updated.
+   */
+  updateNamesTranslatedContent(selectedValue) {
+    const contentLanguageTag = H5PEditor.defaultLanguage || H5PEditor.contentLanguage;
+
+    if (this.field.localeSelector.type === LOCALESELECTOR_TYPE_COUNTRY) {
+      this.updateCountryNamesTranslatedContent(contentLanguageTag, selectedValue);
+    }
+    else {
+      this.updateLanguageNamesTranslatedContent(contentLanguageTag, selectedValue);
+    }
+  }
+
+  /**
+   * Update translated country names in locale data based on content language.
+   * @param {string} contentLanguageTag Language set for the content.
+   * @param {string} [selectedValue] Selected ISO 3166 value to update for. If not provided, all values are updated.
+   */
+  updateCountryNamesTranslatedContent(contentLanguageTag, selectedValue) {
+    const updateCountry = (iso3166) => {
+      const countryNameTranslatedContent =
+        getContentTranslation(contentLanguageTag, 'H5PEditor.LocaleSelector', `countryLabel-${iso3166}`);
+      this.countriesData[iso3166] = { ...this.countriesData[iso3166], countryNameTranslatedContent };
+    };
+
+    if (selectedValue) {
+      updateCountry(selectedValue);
+    }
+    else {
+      Object.keys(this.countriesData).forEach((iso3166) => {
+        updateCountry(iso3166);
+      });
+    }
+  }
+
+  /**
+   * Update translated language names in locale data based on content language.
+   * @param {string} contentLanguageTag Language set for the content.
+   * @param {string} [selectedValue] Selected BCP47 value to update for. If not provided, all values are updated.
+   */
+  updateLanguageNamesTranslatedContent(contentLanguageTag, selectedValue) {
+    const updateLanguage = (bcp47) => {
+      const languageNameTranslatedContent =
+        getContentTranslation(contentLanguageTag, 'H5PEditor.LocaleSelector', `languageLabel-${bcp47}`);
+      this.languagesData[bcp47] = { ...this.languagesData[bcp47], languageNameTranslatedContent };
+    };
+
+    if (selectedValue) {
+      updateLanguage(selectedValue);
+    }
+    else {
+      Object.keys(this.languagesData).forEach((bcp47) => {
+        updateLanguage(bcp47);
+      });
+    }
   }
 
   /**
@@ -400,6 +469,19 @@ export default class LocaleSelector {
   }
 
   /**
+   * Set up language switch detector on H5PEditor form, does not send event or similar itself.
+   * @param {H5PEditor.Form} form Parent form instance.
+   */
+  setupLanguageSwitchDetector(form) {
+    LocaleSelector.languageSwitchChangeDetector = LocaleSelector.languageSwitchChangeDetector ??
+      new LanguageSwitchDetector(form);
+
+    LocaleSelector.languageSwitchChangeDetector?.registerCallback(this.uuid, () => {
+      this.handleSelectChange(this.getSelectedValue(this.params, this.field.localeSelector.type));
+    });
+  }
+
+  /**
    * Handle change of field and inform callers.
    */
   handleFieldChange() {
@@ -415,6 +497,13 @@ export default class LocaleSelector {
    */
   appendTo($wrapper) {
     $wrapper.get(0).append(this.$container.get(0));
+
+    if (LocaleSelector.languageSwitchChangeDetector) {
+      LocaleSelector.languageSwitchChangeDetector.updateLanguageSwitcher(findEditorFormInstance(this));
+      LocaleSelector.languageSwitchChangeDetector?.registerCallback(this.uuid, () => {
+        this.handleSelectChange(this.getSelectedValue(this.params, this.field.localeSelector.type));
+      });
+    }
   }
 
   /**
@@ -422,6 +511,15 @@ export default class LocaleSelector {
    */
   remove() {
     this.$container.get(0).remove();
+
+    this.cleanUpLanguageSwitchDetector();
+  }
+
+  /**
+   * Clean up language switch detector when instance is removed.
+   */
+  cleanUpLanguageSwitchDetector() {
+    LocaleSelector.languageSwitchChangeDetector?.unregisterCallback(this.uuid);
   }
 
   /**
@@ -432,3 +530,6 @@ export default class LocaleSelector {
     return this.fieldInstance.validate();
   }
 }
+
+/** @type {MutationObserver} Observer for language switcher changes. Only one for all instances. */
+LocaleSelector.languageSwitchChangeDetector = null;

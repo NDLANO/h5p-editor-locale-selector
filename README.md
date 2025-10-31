@@ -24,15 +24,15 @@ en
 ## Options
 You can add an object type `localeSelector` property to your semantic text field to customize the selector appearance and behavior. That property can hold a combination of key/value pairs for customization.
 
-| Key                   | Value                                                                                                                                                                                                        |
-|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `type`                | `"language"` or `"country"` (default: `"language"`)                                                                                                                                                          |
-| `requestedBCP47s`     | `"primary"` or `"secondary"` or array of [IETF BCP47 tags](https://en.wikipedia.org/wiki/IETF_language_tag) (default: `primary`)                                                                             |
-| `requestedISO3166s`   | Array of [ISO-3116 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)                                                                                                              |
-| `requestedProperties` | Array of `"bcp47"`, `"countryNameEnglish"`, `"languageNameEnglish"`, `"countryNameLocal"`, `"languageNameLocal"`, `"iso3166"`, `"iso639-1"`: `"flag"`, `"countryNameTranslated"`, `"languageNameTranslated"` |
-| `noFlag`              | `true` or `false` (default: `"false"`)                                                                                                                                                                       |
-| `default`             | [IETF BCP47 tag](https://en.wikipedia.org/wiki/IETF_language_tag) or [ISO-3116 country code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) (default: `en`/`GB`)                              |
-| `targetFieldMap`      | object with key/value pairs of a relative semantics path to another text field (key) and a requested property to fill the field with (value)                                                                 |
+| Key                   | Value                                                                                                                                                                                                                                                                                         |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `type`                | `"language"` or `"country"` (default: `"language"`)                                                                                                                                                                                                                                           |
+| `requestedBCP47s`     | `"primary"` or `"secondary"` or array of [IETF BCP47 tags](https://en.wikipedia.org/wiki/IETF_language_tag) (default: `primary`)                                                                                                                                                              |
+| `requestedISO3166s`   | Array of [ISO-3116 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)                                                                                                                                                                                               |
+| `requestedProperties` | Array of `"bcp47"`, `"countryNameEnglish"`, `"languageNameEnglish"`, `"countryNameLocal"`, `"languageNameLocal"`, `"iso3166"`, `"iso639-1"`: `"flag"`, `"countryNameTranslatedContent"`, `"languageNameTranslatedContent"`, `"countryNameTranslatedEditor"`, `"languageNameTranslatedEditor"` |
+| `noFlag`              | `true` or `false` (default: `"false"`)                                                                                                                                                                                                                                                        |
+| `default`             | [IETF BCP47 tag](https://en.wikipedia.org/wiki/IETF_language_tag) or [ISO-3116 country code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) (default: `en`/`GB`)                                                                                                               |
+| `targetFieldMap`      | object with key/value pairs of a relative semantics path to another text field (key) and a requested property to fill the field with (value)                                                                                                                                                  |
 
 ### Select countries
 In order to let the author choose a country instead, add `"localeSelector": { "type": "country" }`. The value that is stored will be the ISO 6133 country code for the chosen language, e.g. `NO` for Norway.
@@ -122,27 +122,29 @@ By setting the `requestedProperties` you can request more language or country re
 
 If you set the widget to be a language selector, then these properties will be available:
 
-| Property                 | Explanation                                                                    |
----------------------------|--------------------------------------------------------------------------------|
-| `bcp47`                  | IETF BCP 47 language tag, e.g. `es` or `es-MX` (set by default                 |
-| `flag`                   | Unicode representation of the country closely linked with that language        |
-| `iso639-1`               | ISO 639-1 language tag, e.g. `es`                                              |
-| `languageNameEnglish`    | Name of the language in English, e.g. `Spanish`                                |
-| `languageNameLocal`      | Name of the language in that very language, e.g. `Español`                     |
-| `languageNameTranslated` | Name of the language in the language that the editor is using, e.g. `Spanisch` |
+| Property                 | Explanation                                                                           |
+---------------------------|---------------------------------------------------------------------------------------|
+| `bcp47`                  | IETF BCP 47 language tag, e.g. `es` or `es-MX` (set by default                        |
+| `flag`                   | Unicode representation of the country closely linked with that language               |
+| `iso639-1`               | ISO 639-1 language tag, e.g. `es`                                                     |
+| `languageNameEnglish`    | Name of the language in English, e.g. `Spanish`                                       |
+| `languageNameLocal`      | Name of the language in that very language, e.g. `Español`                            |
+| `languageNameTranslatedContent` | Name of the language in the language that the content is set to, e.g. `Spansk` |
+| `languageNameTranslatedEditor`  | Name of the language in the language that the editor is using, e.g. `Spanisch` |
 
 Note that `bcp47` will be set by default, because it is used to store what language was selected. If you request invalid tags, these will be ignored.
 
 If you set the widget to be a country selector, then these properties will be available:
 
-| Property                 | Explanation                                                                     |
----------------------------|---------------------------------------------------------------------------------|
-| `bcp47`                  | IETF BCP 47 language tag of the country's dominant official language, e.g. `es` |
-| `countryNameEnglish`     | Name of the country in English, e.g. `Spain`                                    |
-| `countryNameLocal`       | Name of the country in its dominant language, e.g. `España`                     |
-| `countryNameTranslated`  | Name of the country in the language that the editor is using, e.g. `Spanien`    |
-| `flag`                   | Unicode representation of the country flag                                      |
-| `iso3166`                | ISO 3166 country code, e.g. `ES` (set by default)                               |
+| Property                 | Explanation                                                                         |
+---------------------------|-------------------------------------------------------------------------------------|
+| `bcp47`                  | IETF BCP 47 language tag of the country's dominant official language, e.g. `es`     |
+| `countryNameEnglish`     | Name of the country in English, e.g. `Spain`                                        |
+| `countryNameLocal`       | Name of the country in its dominant language, e.g. `España`                         |
+| `countryNameTranslatedContent` | Name of the country in the language that the content is set to, e.g. `Spania` |
+| `countryNameTranslatedEditor`  | Name of the country in the language that the editor is using, e.g. `Spanien`  |
+| `flag`                   | Unicode representation of the country flag                                          |
+| `iso3166`                | ISO 3166 country code, e.g. `ES` (set by default)                                   |
 
 Note that `iso3155` will be set by default, because it is used to store what country was selected. If you request invalid tags, these will be ignored.
 
@@ -150,12 +152,12 @@ Instead of just storing a plain string that either represents an IETF BCP 47 lan
 
 That means that you cannot just work with the parameter value in your content type, but you'll need to process it to get the information that you need. For instance, your value could look like:
 ```
-"{&quot;bcp47&quot;:&quot;en&quot;,&quot;languageNameEnglish&quot;:&quot;English&quot;,&quot;languageNameLocal&quot;:&quot;English&quot;,&quot;iso639-1&quot;:&quot;en&quot;,&quot;flag&quot;:&quot;🇬🇧&quot;,&quot;languageNameTranslated&quot;:&quot;English&quot;}"
+"{&quot;bcp47&quot;:&quot;en&quot;,&quot;languageNameEnglish&quot;:&quot;English&quot;,&quot;languageNameLocal&quot;:&quot;English&quot;,&quot;iso639-1&quot;:&quot;en&quot;,&quot;flag&quot;:&quot;🇬🇧&quot;,&quot;languageNameTranslatedContent&quot;:&quot;English&quot,&quot;languageNameTranslatedEditor&quot;:&quot;English&quot;}"
 ```
 
 That means, that in your content type you will have to make sense of this string. You would typically HTML-decode it first and receive:
 ```
-{"bcp47":"en","languageNameEnglish":"English","languageNameLocal":"English","iso639-1":"en","flag":"🇬🇧","languageNameTranslated":"English"}
+{"bcp47":"en","languageNameEnglish":"English","languageNameLocal":"English","iso639-1":"en","flag":"🇬🇧","languageNameTranslatedContent":"English","languageNameTranslatedEditor":"English"}
 ```
 
 You would then JSON-encode it to get the respective object back:
@@ -166,7 +168,8 @@ You would then JSON-encode it to get the respective object back:
   "languageNameLocal":"English",
   "iso639-1": "en",
   "flag":"🇬🇧",
-  "languageNameTranslated":"English"
+  "languageNameTranslatedContent":"English"
+  "languageNameTranslatedEditor":"English"
 }
 ```
 
@@ -179,7 +182,7 @@ You would then JSON-encode it to get the respective object back:
   "description": "Select the language for this content.",
   "widget": "localeSelector",
   "localeSelector": {
-    "requestedBCP47s": ["bcp47", "flag", "iso639-1", "languageNameEnglish", "languageNameLocal", "languageNameTranslated"]
+    "requestedBCP47s": ["bcp47", "flag", "iso639-1", "languageNameEnglish", "languageNameLocal", "languageNameTranslatedContent", "languageNameTranslatedEditor"]
   }
 }
 ```
@@ -218,7 +221,7 @@ Invalid property tags will be ignored. If the target field cannot be found, noth
   "widget": "localeSelector",
   "localeSelector": {
     "targetFieldMap": {
-      "languageNameLocal": "./myExtraTextField"
+      "languageNameLocal": "myExtraTextField"
     }
   }
 },

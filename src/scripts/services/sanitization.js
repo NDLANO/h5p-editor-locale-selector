@@ -16,6 +16,11 @@ const ALLOWED_TYPES = [TYPE_LANGUAGE, TYPE_COUNTRY];
 /** @constant {string} DEFAULT_TYPE Default type for the select field. */
 const DEFAULT_TYPE = TYPE_LANGUAGE;
 
+const DYNAMIC_PROPERTIES = [
+  'languageNameTranslatedEditor', 'languageNameTranslatedContent',
+  'countryNameTranslatedEditor', 'countryNameTranslatedContent',
+];
+
 /** @constant {string} MANDATORY_PROPERTIES Values that will always be included. BCP47/ISO3166 required for storing locale selection. */
 const MANDATORY_PROPERTIES = {
   'country': ['iso3166'],
@@ -203,7 +208,11 @@ export const sanitizeLocaleSelectorConfig = (config = {}, data = {}, defaultBCP4
     config.requestedISO3166s = [];
   }
 
-  const allProperties = [...Object.keys(data.countries[defaultISO3166]), ...Object.keys(data.languages[defaultBCP47])];
+  const allProperties = [
+    ...Object.keys(data.countries[defaultISO3166]),
+    ...Object.keys(data.languages[defaultBCP47]),
+    ...DYNAMIC_PROPERTIES
+  ];
 
   const allowedProperties = Array.from(new Set(allProperties));
 
