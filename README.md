@@ -10,7 +10,7 @@ In order to use the language selector, just apply `"widget": "localeSelector"` t
   "type": "text",
   "label": "Locale",
   "description": "Select the language for this content.",
-  "widget": "localeSelector",
+  "widget": "localeSelector"
 }
 ```
 
