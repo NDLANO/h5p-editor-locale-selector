@@ -1,6 +1,8 @@
 # H5PEditor Locale Selector
 A widget that makes it possible to turn a text field into a locale selector for languages and countries and to then receive related values as text parameter.
 
+<img width="293" height="269" alt="image" src="https://github.com/user-attachments/assets/9cc3fb91-dfb4-4cf4-b8f6-c1dbbd02d4e7" />
+
 ## Basic Usage
 In order to use the language selector, just apply `"widget": "localeSelector"` to a [semantics field of type text](https://h5p.org/semantics#type-text).
 
