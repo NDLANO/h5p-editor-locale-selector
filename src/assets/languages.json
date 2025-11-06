@@ -272,6 +272,13 @@
     "iso639-1": "mg",
     "flag": "\uD83C\uDDF2\uD83C\uDDEC"
   },
+  "mi": {
+    "bcp47": "mi",
+    "languageNameEnglish": "Maori",
+    "languageNameLocal": "Māori",
+    "iso639-1": "mi",
+    "flag": "\uD83C\uDDF3\uD83C\uDDFF"
+  },
   "mn": {
     "bcp47": "mn",
     "languageNameEnglish": "Mongolian",
