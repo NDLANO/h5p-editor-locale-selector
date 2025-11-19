@@ -21,7 +21,7 @@ const DYNAMIC_PROPERTIES = [
   'countryNameTranslatedEditor', 'countryNameTranslatedContent',
 ];
 
-/** @constant {string} MANDATORY_PROPERTIES Values that will always be included. BCP47/ISO3166 required for storing locale selection. */
+/** @constant {string} MANDATORY_PROPERTIES Values to always include. BCP47/ISO3166 for storing localde selection. */
 const MANDATORY_PROPERTIES = {
   'country': ['iso3166'],
   'language': ['bcp47']

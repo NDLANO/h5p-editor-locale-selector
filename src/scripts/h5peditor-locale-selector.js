@@ -326,7 +326,7 @@ export default class LocaleSelector {
 
   /**
    * Update translated names in locale data based on content language.
-   * @param {string} [selectedValue] Selected BCP47 or ISO 3166 value to update for. If not provided, all values are updated.
+   * @param {string} [selectedValue] Selected BCP47 or ISO 3166 value to update for. If not provided, update all values.
    */
   updateNamesTranslatedContent(selectedValue) {
     const contentLanguageTag = H5PEditor.defaultLanguage || H5PEditor.contentLanguage;

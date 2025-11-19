@@ -109,7 +109,9 @@ export const getContentTranslation = (bcp47ORISO3166, machineName, key, placehol
     return replacePlaceholders(translation, placeholderReplacements);
   }
 
-  console.warn(`Translation for key "${key}" not found for language "${bcp47ORISO3166}". Falling back to default translation.`);
+  console.warn(
+    `Translation for key "${key}" not found for language "${bcp47ORISO3166}". Falling back to default translation.`
+  );
 
   const fallbackTranslation = (typeof fallback === 'string') ?
     fallback :
