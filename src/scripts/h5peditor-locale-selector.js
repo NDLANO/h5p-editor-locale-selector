@@ -269,7 +269,7 @@ export default class LocaleSelector {
       return;
     }
 
-    form.ready(() => {
+    this.parent.ready(() => {
       this.handleParentReady(form);
     });
   }
