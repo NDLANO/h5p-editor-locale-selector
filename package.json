@@ -1,6 +1,6 @@
 {
   "name": "h5peditor-locale-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Editor widget for choosing language/country specific values",
   "private": true,
   "scripts": {
